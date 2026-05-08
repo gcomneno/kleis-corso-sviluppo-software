@@ -1,65 +1,71 @@
-# Kleis C# Course
+# Kleis C# — Percorso di apprendimento
 
-Raccolta delle esercitazioni svolte durante un corso di formazione su C# e .NET.
+Repository di esercitazioni sviluppate durante il corso di Sviluppatore Software.
 
-## 🎯 Obiettivo
+L'obiettivo NON è solo far funzionare il codice, ma:
+- capire cosa si sta facendo
+- organizzare il lavoro
+- scrivere codice leggibile e riutilizzabile
 
-Consolidare le basi della programmazione con C#, lavorando su esercizi pratici che coprono:
+---
 
-- input/output da console
-- gestione delle stringhe
-- strutture di controllo (`if`, `switch`, cicli)
-- gestione degli errori (TryParse vs Convert)
-- logica applicativa (es. classificazione di un triangolo)
+## 📚 Struttura
 
-## 🗂️ Struttura del progetto
+Ogni esercitazione è organizzata in modo indipendente:
 
-La repository è organizzata come una **solution .NET (`Kleis.sln`)** che contiene più progetti, uno per ogni esercitazione:
+- un progetto `.csproj`
+- codice sorgente
+- note didattiche (`LESSONS_LEARNED`)
 
-```
-Kleis/
-├── Kleis.sln
-├── Esercitazione-2/
-├── Esercitazione-4/
-├── Esercitazione-6/
-```
+Questo permette di:
+- isolare i problemi
+- evitare conflitti tra esercizi
+- mantenere ordine nel tempo
 
-Ogni cartella rappresenta un progetto console indipendente.
+---
 
-## ▶️ Esecuzione
+## 📂 Esercitazioni
 
-Eseguire una specifica esercitazione:
-```
-dotnet run --project "Esercitazione-6/Esercitazione-6.csproj"
-```
-Oppure:
-```
-cd Esercitazione-6
-dotnet run
-```
-## 🧠 Note tecniche
+- [02-type-inspector](./02-type-inspector)  
+  Tipi base e ispezione dei valori
 
-- Utilizzo di `TryParse` per la validazione dell'input utente
-- Uso di `switch` e `if/else` per confronto tra approcci
-- Struttura a progetti separati per evitare conflitti con i top-level statements
+- [04-min-max](./04-min-max)  
+  Logica condizionale e confronto
 
-## 🚀 Evoluzione
+- [06-stringhe](./06-stringhe)  
+  Stringhe, metodi, immutabilità, confronto con C
 
-Questa repository verrà aggiornata con:
-- nuove esercitazioni
-- refactor progressivi
-- miglioramenti di struttura e leggibilità
+- [07-calcolatrice](./07-calcolatrice)  
+  Input utente, validazione, metodi, gestione errori
 
-Sentiti libero di contribuire, se ti fa piacere!
+---
 
-## 👤 Autore
+## 🧠 Approccio
 
-GitHub: https://github.com/gcomneno
+Ogni esercizio segue alcune regole:
 
+- separazione della logica (metodi)
+- validazione dell'input (mai fidarsi dell'utente)
+- codice semplice prima di codice “furbo”
+- commenti utili (non decorativi)
 
-## 📚 Esercitazioni
+---
 
-- [02-type-inspector](./02-type-inspector)
-- [04-min-max](./04-min-max)
-- [06-stringhe](./06-stringhe)
-- [07-calcolatrice](./07-calcolatrice)
+## ⚠️ Note
+
+Questo repository è volutamente:
+- semplice
+- progressivo
+- didattico
+
+Non è codice “production-ready”, ma una base solida per arrivarci.
+
+---
+
+## 🎯 Obiettivo finale
+
+Passare da:
+> codice che funziona
+
+a:
+> codice che ha senso
