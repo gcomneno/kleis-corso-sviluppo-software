@@ -55,3 +55,11 @@ Sentiti libero di contribuire, se ti fa piacere!
 ## 👤 Autore
 
 GitHub: https://github.com/gcomneno
+
+
+## 📚 Esercitazioni
+
+- [02-type-inspector](./02-type-inspector)
+- [04-min-max](./04-min-max)
+- [06-stringhe](./06-stringhe)
+- [07-calcolatrice](./07-calcolatrice)
