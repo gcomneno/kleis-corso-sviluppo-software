@@ -1,8 +1,39 @@
-using System;
+/*
+Lessons Learned — Codice Fiscale e ambiguità dell’anno
 
-// ====================================
-// GENERATORE CODICE FISCALE (versione semplificata)
-// ====================================
+Il codice fiscale italiano usa solo le ultime 2 cifre dell’anno di nascita.
+
+Esempi:
+1926 -> 26
+2026 -> 26
+2126 -> 26
+
+Questo significa che il codice fiscale NON contiene il secolo completo.
+
+Da solo, quindi, il codice fiscale è ambiguo:
+non può distinguere automaticamente persone nate a 100 anni di distanza.
+
+Il sistema reale risolve il problema usando:
+- anagrafe
+- database centrali
+- documenti
+- storicità del soggetto
+
+In alcuni casi interviene anche la cosiddetta "omocodia":
+alcuni numeri vengono sostituiti con lettere per evitare collisioni.
+
+Curiosità nerd:
+questo problema ricorda il famoso Millennium Bug (Y2K):
+pochi caratteri usati per rappresentare l’anno -> ambiguità futura.
+
+Morale informatica:
+un identificatore apparentemente intelligente può diventare ambiguo
+se progettato con troppo poche informazioni.
+*/
+
+// ======================================
+// GENERATORE CODICE FISCALE (ver.sempl.)
+// ======================================
 
 Console.Write("Nome: ");
 string nome = Console.ReadLine()!.ToUpper();
