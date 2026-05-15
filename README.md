@@ -8,6 +8,16 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 
 ---
 
+## Ultimi aggiornamenti
+- aggiunta validazione input con `TryParse`
+- introduzione dei metodi riutilizzabili
+- gestione errori e controlli semantici
+- confronto tra C# e ANSI C
+- introduzione dell’operatore ternario
+- migliorata la struttura della solution e del repository
+
+---
+
 ## Struttura
 Ogni esercitazione è organizzata in modo indipendente:
 
@@ -67,13 +77,4 @@ Passare da:
 a:
 > codice che ha senso!
 
-
 ---
-
-## Ultimi aggiornamenti
-- aggiunta validazione input con `TryParse`
-- introduzione dei metodi riutilizzabili
-- gestione errori e controlli semantici
-- confronto tra C# e ANSI C
-- introduzione dell’operatore ternario
-- migliorata la struttura della solution e del repository
