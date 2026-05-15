@@ -15,6 +15,7 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 - confronto tra C# e ANSI C
 - introduzione dell’operatore ternario
 - migliorata la struttura della solution e del repository
+- introduzione generatore semplificato del codice fiscale italiano
 
 ---
 
@@ -47,6 +48,10 @@ Questo permette di:
 
 - [08-triangolo](./08-triangolo)  
   Validazione semantica, metodi riutilizzabili, operatore ternario
+
+
+- [09-codice-fiscale](./09-codice-fiscale)  
+  Generatore semplificato del codice fiscale italiano
 
 ---
 
