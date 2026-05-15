@@ -1,5 +1,4 @@
 # Kleis C# — Percorso di apprendimento
-
 Repository di esercitazioni sviluppate durante il corso di Sviluppatore Software.
 
 L'obiettivo NON è solo far funzionare il codice, ma:
@@ -9,8 +8,7 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 
 ---
 
-## 📚 Struttura
-
+## Struttura
 Ogni esercitazione è organizzata in modo indipendente:
 
 - un progetto `.csproj`
@@ -24,8 +22,7 @@ Questo permette di:
 
 ---
 
-## 📂 Esercitazioni
-
+## Esercitazioni
 - [02-type-inspector](./02-type-inspector)  
   Tipi base e ispezione dei valori
 
@@ -38,10 +35,12 @@ Questo permette di:
 - [07-calcolatrice](./07-calcolatrice)  
   Input utente, validazione, metodi, gestione errori
 
+- [08-triangolo](./08-triangolo)  
+  Validazione semantica, metodi riutilizzabili, operatore ternario
+
 ---
 
-## 🧠 Approccio
-
+## Approccio
 Ogni esercizio segue alcune regole:
 
 - separazione della logica (metodi)
@@ -51,8 +50,7 @@ Ogni esercizio segue alcune regole:
 
 ---
 
-## ⚠️ Note
-
+## Note
 Questo repository è volutamente:
 - semplice
 - progressivo
@@ -62,10 +60,20 @@ Non è codice “production-ready”, ma una base solida per arrivarci.
 
 ---
 
-## 🎯 Obiettivo finale
-
+## Obiettivo finale
 Passare da:
 > codice che funziona
 
 a:
-> codice che ha senso
+> codice che ha senso!
+
+
+---
+
+## Ultimi aggiornamenti
+- aggiunta validazione input con `TryParse`
+- introduzione dei metodi riutilizzabili
+- gestione errori e controlli semantici
+- confronto tra C# e ANSI C
+- introduzione dell’operatore ternario
+- migliorata la struttura della solution e del repository
