@@ -1,6 +1,7 @@
 # Lessons Learned — HTML Base
 
 ## Idea generale
+
 HTML NON è un linguaggio di programmazione.
 
 HTML serve a descrivere:
@@ -13,56 +14,62 @@ HTML serve a descrivere:
 ## Concetto chiave #1 — Struttura documento
 
 Tag principali:
-- <html>
-- <head>
-- <body>
+- `<html>`
+- `<head>`
+- `<body>`
 
 ---
 
 ## Concetto chiave #2 — Tag testuali
 
 Tag usati:
-- <b>
-- <i>
-- <u>
-- <strong>
-- <em>
+- `<b>`
+- `<i>`
+- `<u>`
+- `<strong>`
+- `<em>`
 
 Nota:
-oggi si preferiscono spesso i tag semantici (x Accessibilità e SEO):
-- <strong>
-- <em>
+oggi si preferiscono spesso i tag semantici (accessibilità + SEO):
+- `<strong>`
+- `<em>`
 
 ---
 
 ## Concetto chiave #3 — Liste
 
 Liste non ordinate:
-<ul>
+- `<ul>`
 
 Liste ordinate:
-<ol>
+- `<ol>`
 
 Elementi:
-<li>
+- `<li>`
 
 ---
 
 ## Concetto chiave #4 — Link
 
 Uso del tag:
+
+```html
 <a href="...">
+```
 
 Differenza:
-- target="_self" (default)
-- target="_blank"
+- `target="_self"` → stessa pagina (default)
+- `target="_blank"` → nuova scheda
 
 ---
 
 ## Concetto chiave #5 — Path relativi
 
 Esempio:
+
+```text
 viaggi/europa/europa.html
+```
 
 I path relativi sono fondamentali:
 - HTML
@@ -76,15 +83,18 @@ I path relativi sono fondamentali:
 ## Concetto chiave #6 — Tabelle
 
 Tag principali:
-<table>
-<tr>    row
-<td>    data
-<th>    header
+- `<table>` → tabella
+- `<tr>` → row (riga)
+- `<td>` → data (cella dati)
+- `<th>` → header (intestazione)
 
-Le tabelle servono a rappresentare dati strutturati in: righe, colonne
+Le tabelle servono a rappresentare dati strutturati in:
+- righe
+- colonne
 
 Esempio:
-```
+
+```html
 <table border="1">
     <tr>
         <th>Nome</th>
@@ -100,7 +110,9 @@ Esempio:
 
 Curiosità storica:
 nei primi anni del web le tabelle venivano spesso usate anche per costruire il layout completo dei siti web.
-Oggi questa pratica è considerata "old school": per il layout si usa CSS.
+
+Oggi questa pratica è considerata "old school":
+per il layout si usa CSS.
 
 ---
 
@@ -112,7 +124,8 @@ Attributi principali:
 - `colspan` → unisce più colonne
 - `rowspan` → unisce più righe
 
-Esempio:
+Esempio con `colspan`:
+
 ```html
 <table border="1">
     <tr>
@@ -126,9 +139,11 @@ Esempio:
 </table>
 ```
 
-In questo caso, colspan="2" dice alla cella di occupare 2 colonne.
+In questo caso:
+`colspan="2"` dice alla cella di occupare 2 colonne.
 
-Esempio con rowspan:
+Esempio con `rowspan`:
+
 ```html
 <table border="1">
     <tr>
@@ -142,13 +157,20 @@ Esempio con rowspan:
 </table>
 ```
 
-Qui, rowspan="2" occupa 2 righe verticalmente.
+Qui:
+`rowspan="2"` occupa 2 righe verticalmente.
 
 ---
 
 ## Curiosità nerd
 
-Molti <br/> usati per creare spazi verticali.
+Molti tag:
+
+```html
+<br/>
+```
+
+venivano usati per creare spazi verticali.
 
 Oggi questa pratica è considerata "old school":
 layout e spaziature vengono gestiti tramite CSS.
@@ -157,9 +179,11 @@ layout e spaziature vengono gestiti tramite CSS.
 
 ## Morale finale
 
-HTML descrive contenuto e struttura.
+HTML descrive:
+- contenuto
+- struttura
 
-NON descrive:
+HTML NON descrive:
 - stile avanzato
 - logica
 - comportamento dinamico
