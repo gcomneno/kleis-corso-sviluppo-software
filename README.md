@@ -1,5 +1,11 @@
-# Kleis C# — Percorso di apprendimento
+# Kleis Software Lab — Percorso di apprendimento
 Repository di esercitazioni sviluppate durante il corso di Sviluppatore Software.
+
+Il repository include:
+- C#
+- HTML
+- basi web
+- logica e problem solving
 
 L'obiettivo NON è solo far funzionare il codice, ma:
 - capire cosa si sta facendo
@@ -23,8 +29,9 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 ## Struttura
 Ogni esercitazione è organizzata in modo indipendente:
 
-- un progetto `.csproj`
 - codice sorgente
+- eventuali progetti `.csproj`
+- file HTML/CSS
 - note didattiche (`LESSONS_LEARNED`)
 
 Questo permette di:
@@ -34,7 +41,7 @@ Questo permette di:
 
 ---
 
-## Esercitazioni
+## Esercitazioni C#
 - [02-type-inspector](./02-type-inspector)  
   Tipi base e ispezione dei valori
 
@@ -88,3 +95,8 @@ a:
 > codice che ha senso!
 
 ---
+
+## HTML / Web Base
+
+- [10-html-base](./10-html-base)  
+  Struttura base HTML, link, liste, tabelle e path relativi
