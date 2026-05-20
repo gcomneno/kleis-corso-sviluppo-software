@@ -61,10 +61,6 @@ Questo permette di:
 - [09-codice-fiscale](./09-codice-fiscale)  
   Generatore semplificato del codice fiscale italiano
 
-
-- [10-html-base](./10-html-base)  
-  Struttura base HTML, link, liste e path relativi
-
 ---
 
 ## Approccio
