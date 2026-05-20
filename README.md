@@ -16,6 +16,7 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 - introduzione dell’operatore ternario
 - migliorata la struttura della solution e del repository
 - introduzione generatore semplificato del codice fiscale italiano
+- introduzione basi HTML e navigazione multipagina
 
 ---
 
@@ -52,6 +53,10 @@ Questo permette di:
 
 - [09-codice-fiscale](./09-codice-fiscale)  
   Generatore semplificato del codice fiscale italiano
+
+
+- [10-html-base](./10-html-base)  
+  Struttura base HTML, link, liste e path relativi
 
 ---
 
