@@ -5,6 +5,7 @@
 Le form HTML permettono all'utente di inserire dati.
 
 Sono la base di:
+
 - login
 - registrazione
 - ricerca
@@ -42,7 +43,9 @@ Le label migliorano:
 accessibilità
 leggibilità
 UX
-Concetto chiave #4 — name
+
+## Concetto chiave #4 — name
+
 name="username"
 
 L'attributo name identifica il dato inviato al server.
@@ -50,29 +53,32 @@ L'attributo name identifica il dato inviato al server.
 IMPORTANTISSIMO:
 senza name, molti backend ignorano il valore.
 
-Concetto chiave #5 — button
+## Concetto chiave #5 — button
+
 <button type="submit">
 
 Invia la form.
 
-Concetto chiave #6 — placeholder
+## Concetto chiave #6 — placeholder
+
 placeholder="nome@dominio.it"
 
 Mostra un suggerimento all'utente.
 
-Curiosità nerd
+## Curiosità nerd
 
 Le form HTML sono uno dei pilastri storici del web:
-prima di JavaScript avanzato e SPA moderne,
-gran parte delle applicazioni web funzionava tramite semplici form HTML.
 
-Morale finale
+- prima di JavaScript avanzato e SPA moderne,
+- gran parte delle applicazioni web funzionava tramite semplici form HTML.
+
+## Morale finale
 
 Le form introducono:
 
-input utente
-validazione
-invio dati
-interazione col backend
+- input utente
+- validazione
+- invio dati
+- interazione col backend
 
 Sono uno dei mattoni fondamentali del web.
