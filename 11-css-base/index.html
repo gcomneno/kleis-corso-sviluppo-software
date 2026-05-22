@@ -1,0 +1,47 @@
+<html lang="it">
+<head>
+    <title>CSS Base</title>
+    <style>
+        /* Tutti gli elementi */
+        * {
+            font-size: 15px;
+            color: red;
+        }
+
+        /* Secondo e terzo paragrafo */
+        p:nth-of-type(2),
+        p:nth-of-type(3) {
+            color: orange;
+            padding: 10px 0;
+        }
+
+        /* SOLO gli li dentro il terzo paragrafo */
+        p ul li {
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <p>Primo paragrafo</p>
+
+    <p>Secondo paragrafo</p>
+
+    <p>
+        Terzo paragrafo
+
+        <ul>
+            <li>Elemento interno 1</li>
+            <li>Elemento interno 2</li>
+        </ul>
+    </p>
+
+    <ul>
+        <li>Elemento esterno 1</li>
+        <li>Elemento esterno 2</li>
+    </ul>
+
+</body>
+</html>

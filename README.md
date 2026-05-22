@@ -23,6 +23,7 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 - migliorata la struttura della solution e del repository
 - introduzione generatore semplificato del codice fiscale italiano
 - introduzione basi HTML e navigazione multipagina
+- introduzione basi CSS e selettori
 
 ---
 
