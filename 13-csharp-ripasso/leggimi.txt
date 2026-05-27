@@ -1,0 +1,10 @@
+Esercitazione di ripasso generale C#.
+
+Argomenti:
+- array
+- cicli
+- metodi
+- statistiche
+- ricerca
+- validazione input
+- top-down design

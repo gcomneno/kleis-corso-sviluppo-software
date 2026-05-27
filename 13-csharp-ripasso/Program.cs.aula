@@ -1,0 +1,114 @@
+using System;
+
+// ====================================
+// RIPASSO GENERALE C#
+// ====================================
+
+const int quantita = 10;
+
+int[] numeri = new int[quantita];
+
+// caricamento
+for (int i = 0; i < quantita; i++)
+{
+    Console.Write($"Inserisci numero {i + 1}: ");
+    numeri[i] = leggiNumero();
+}
+
+// stampa array
+stampaArray(numeri);
+
+// statistiche
+Console.WriteLine($"Media: {calcolaMedia(numeri)}");
+Console.WriteLine($"Minimo: {calcolaMinimo(numeri)}");
+Console.WriteLine($"Massimo: {calcolaMassimo(numeri)}");
+
+// ricerca
+Console.Write("Numero da cercare: ");
+int numeroDaCercare = leggiNumero();
+
+bool trovato = contiene(numeri, numeroDaCercare);
+
+Console.WriteLine(
+    trovato
+        ? "Numero trovato!"
+        : "Numero NON trovato!"
+);
+
+
+// =======================
+// METODI
+// =======================
+
+int leggiNumero()
+{
+    int numero;
+
+    while (!int.TryParse(Console.ReadLine(), out numero))
+    {
+        Console.WriteLine("Valore non valido.");
+    }
+
+    return numero;
+}
+
+void stampaArray(int[] numeri)
+{
+    Console.WriteLine("\nArray:");
+
+    foreach (int numero in numeri)
+    {
+        Console.Write(numero + " ");
+    }
+
+    Console.WriteLine();
+}
+
+double calcolaMedia(int[] numeri)
+{
+    int somma = 0;
+
+    foreach (int numero in numeri)
+    {
+        somma += numero;
+    }
+
+    return (double)somma / numeri.Length;
+}
+
+int calcolaMinimo(int[] numeri)
+{
+    int minimo = numeri[0];
+
+    foreach (int numero in numeri)
+    {
+        if (numero < minimo)
+            minimo = numero;
+    }
+
+    return minimo;
+}
+
+int calcolaMassimo(int[] numeri)
+{
+    int massimo = numeri[0];
+
+    foreach (int numero in numeri)
+    {
+        if (numero > massimo)
+            massimo = numero;
+    }
+
+    return massimo;
+}
+
+bool contiene(int[] numeri, int valore)
+{
+    foreach (int numero in numeri)
+    {
+        if (numero == valore)
+            return true;
+    }
+
+    return false;
+}
