@@ -30,6 +30,9 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 - introduzione basi HTML e navigazione multipagina
 - introduzione basi CSS e selettori
 - introduzione HTML Forms e interazione utente base
+- introduzione top-down design e decomposizione del problema
+- introduzione refactoring e naming autoesplicativo
+- introduzione separazione tra I/O e business logic
 
 ---
 
@@ -70,6 +73,9 @@ Questo permette di:
 - [09-codice-fiscale](./09-codice-fiscale)  
   Generatore semplificato del codice fiscale italiano
 
+- [13-csharp-ripasso](./13-csharp-ripasso)  
+  Array, statistiche, ricerca, top-down design e refactoring
+
 ---
 
 ## HTML / Web Base
@@ -94,6 +100,8 @@ Ogni esercizio segue alcune regole:
 - codice semplice prima di codice “furbo”
 - commenti utili (non decorativi)
 - progressione graduale della complessità
+- metodi piccoli e responsabilità chiare
+- naming leggibile e intenzionale
 
 ---
 
@@ -117,4 +125,4 @@ Passare da:
 
 a:
 
-> codice che ha senso!
+> codice che funziona, ha senso ed è leggibile!
