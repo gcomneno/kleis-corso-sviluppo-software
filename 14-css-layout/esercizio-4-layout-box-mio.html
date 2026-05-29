@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Esercizio Layout Box</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 94%;
+            max-width: 1450px;
+            margin: 20px auto;
+            padding: 30px 65px;
+            background-color: #35a018;
+            box-shadow: 0 0 8px #777;
+        }
+
+        .row {
+            margin-bottom: 20px;
+        }
+
+        .row::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .box {
+            height: 220px;
+            border: 3px solid #08384a;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 220px;
+            float: left;
+        }
+
+        .blue {
+            background-color: #17687f;
+        }
+
+        .orange {
+            background-color: #ed6d2f;
+        }
+
+        .one-third {
+            width: calc((100% - 50px) / 3);
+            margin-right: 25px;
+        }
+
+        .one-third:last-child {
+            margin-right: 0;
+        }
+
+        .one-half {
+            width: calc((100% - 25px) / 2);
+            margin-right: 25px;
+        }
+
+        .one-half:last-child {
+            margin-right: 0;
+        }
+
+        .full {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box blue one-third">Box 1</div>
+            <div class="box orange one-third">Box 2</div>
+            <div class="box blue one-third">Box 1</div>
+        </div>
+
+        <div class="row">
+            <div class="box orange one-half">Box 2</div>
+            <div class="box orange one-half">Box 2</div>
+        </div>
+
+        <div class="row">
+            <div class="box blue full">Box 1</div>
+        </div>
+
+        <div class="row">
+            <div class="box orange full">Box 2</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
