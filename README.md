@@ -33,6 +33,10 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 - introduzione top-down design e decomposizione del problema
 - introduzione refactoring e naming autoesplicativo
 - introduzione separazione tra I/O e business logic
+- introduzione al box model CSS
+- introduzione a classi e id
+- primi layout multi-colonna con float
+- selettori CSS avanzati e scope degli stili
 
 ---
 
@@ -88,6 +92,9 @@ Questo permette di:
 
 - [12-html-forms](./12-html-forms)  
   Form HTML, input, login, recupero password e UX base
+
+- [14-css-layout](./14-css-layout)  
+  Div, classi, id, box model, float e layout CSS
 
 ---
 

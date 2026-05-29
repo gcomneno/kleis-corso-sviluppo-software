@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>titolo della pagina</title>
+		
+		<style>
+		
+		/* RESET */
+		*{
+			margin:0;
+			padding:0;
+			font-size:13px;
+			font-family: Arial,sans-serif,'Times New Roman';
+		}
+		/* CONTENITORE GIALLO */
+		.container{
+			background-color: yellow;
+			width: 900px;
+			margin: 0  auto;
+		}
+		/* CLASSSE GENERICA */
+		.box{
+			padding: 30px 0;
+			border: 3px solid #990034;
+			text-align: center;
+			color: #FFFFFF;
+			font-weight: bold;
+			width: 394px;
+			margin: 10px 0;
+			float:left;
+		}
+		/* CLASSE SPECIFICA PER SETTARE COLORE E PROPRIETA' DEI BOX */
+		.verde{
+			background-color: #344f47;
+		}
+		.arancio{
+			background-color: #de6f07;
+			text-decoration: underline;
+		}
+		.clear{
+			clear:both;
+		}
+		</style>
+		
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="box verde"> Box 1  </div>
+			<div class="box arancio"> Box 2  </div>
+	
+			<div class="clear"></div>
+			<div class="box verde"> Box 3  </div>
+			<div class="box arancio"> Box 4  </div>
+			<div class="clear"></div>
+		</div>
+		
+	</body>
+</html>
