@@ -45,7 +45,13 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 
 ## Struttura
 
-Ogni esercitazione è organizzata in modo indipendente:
+Il repository è organizzato in tre macro-aree:
+
+- `csharp/` → esercitazioni e ripassi C#
+- `web/` → esercitazioni HTML/CSS
+- `test-prep/` → pre-test e materiali di ripasso
+
+Ogni esercitazione resta organizzata in modo indipendente:
 
 - codice sorgente
 - eventuali progetti `.csproj`
@@ -54,6 +60,7 @@ Ogni esercitazione è organizzata in modo indipendente:
 
 Questo permette di:
 
+- separare lezioni, esercitazioni e test prep
 - isolare i problemi
 - evitare conflitti tra esercizi
 - mantenere ordine nel tempo
@@ -62,53 +69,55 @@ Questo permette di:
 
 ## Esercitazioni C#
 
-- [02-type-inspector](./02-type-inspector)  
+- [01-type-inspector](./csharp/01-type-inspector)  
   Tipi base e ispezione dei valori
 
-- [04-min-max](./04-min-max)  
+- [02-min-max](./csharp/02-min-max)  
   Logica condizionale e confronto
 
-- [06-stringhe](./06-stringhe)  
+- [03-stringhe](./csharp/03-stringhe)  
   Stringhe, metodi, immutabilità, confronto con C
 
-- [07-calcolatrice](./07-calcolatrice)  
+- [04-calcolatrice](./csharp/04-calcolatrice)  
   Input utente, validazione, metodi, gestione errori
 
-- [08-triangolo](./08-triangolo)  
+- [05-triangolo](./csharp/05-triangolo)  
   Validazione semantica, metodi riutilizzabili, operatore ternario
 
-- [09-codice-fiscale](./09-codice-fiscale)  
+- [06-codice-fiscale](./csharp/06-codice-fiscale)  
   Generatore semplificato del codice fiscale italiano
 
-- [13-csharp-ripasso](./13-csharp-ripasso)  
+- [07-ripasso-array-top-down](./csharp/07-ripasso-array-top-down)  
   Array, statistiche, ricerca, top-down design e refactoring
-
-- [17-csharp-test-prep](./17-csharp-test-prep)  
-  Pre-test C# a risposta multipla con soluzioni separate
 
 ---
 
 ## HTML / Web Base
 
-- [10-html-base](./10-html-base)  
+- [01-html-base](./web/01-html-base)  
   Struttura base HTML, link, liste, tabelle e path relativi
 
-- [11-css-base](./11-css-base)  
+- [02-css-base](./web/02-css-base)  
   Selettori CSS, scope, padding, nesting e separazione struttura/stile
 
-- [12-html-forms](./12-html-forms)  
+- [03-html-forms](./web/03-html-forms)  
   Form HTML, input, login, recupero password e UX base
 
-- [14-css-layout](./14-css-layout)  
+- [04-css-layout](./web/04-css-layout)  
   Div, classi, id, box model, float e layout CSS
 
-- [15-html-css-form-layout](./15-html-css-form-layout)  
+- [05-html-css-form-layout](./web/05-html-css-form-layout)  
   Layout CSS complessi e form di registrazione HTML
 
-- [16-html-css-test-prep](./16-html-css-test-prep)  
+---
+
+## Pre-test e materiali di ripasso
+
+- [01-html-css](./test-prep/01-html-css)  
   Pre-test HTML/CSS a risposta multipla con soluzioni separate
 
----
+- [02-csharp](./test-prep/02-csharp)  
+  Pre-test C# a risposta multipla con soluzioni separate
 
 ## Approccio
 
