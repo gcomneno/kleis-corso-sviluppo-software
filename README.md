@@ -39,6 +39,7 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 - selettori CSS avanzati e scope degli stili
 - form HTML/CSS con layout, select, radio, textarea e checkbox
 - pre-test HTML/CSS a risposta multipla con soluzioni separate
+- pre-test C# a risposta multipla con soluzioni separate
 
 ---
 
@@ -81,6 +82,9 @@ Questo permette di:
 
 - [13-csharp-ripasso](./13-csharp-ripasso)  
   Array, statistiche, ricerca, top-down design e refactoring
+
+- [17-csharp-test-prep](./17-csharp-test-prep)  
+  Pre-test C# a risposta multipla con soluzioni separate
 
 ---
 
