@@ -3,16 +3,13 @@
 ## Obiettivo
 
 Questa esercitazione serve per ripassare i concetti HTML/CSS visti finora in vista del test a risposta multipla.
-
-Non è un test ufficiale.
-
-È una palestra di ripasso.
+Non è un test ufficiale!!
+È soltanto una palestra di ripasso.
 
 ## Istruzioni
 
 Per ogni domanda scegli una sola risposta corretta.
-
-Le soluzioni commentate sono in fondo al documento.
+Le soluzioni commentate sono dentro di te... ehm... in un altro documento!
 
 ---
 
@@ -297,8 +294,6 @@ A. HTML descrive la struttura, CSS descrive la presentazione
 B. HTML descrive i colori, CSS salva i dati  
 C. CSS crea il database, HTML crea il server  
 D. HTML e CSS sono la stessa cosa  
-
----
 
 ---
 

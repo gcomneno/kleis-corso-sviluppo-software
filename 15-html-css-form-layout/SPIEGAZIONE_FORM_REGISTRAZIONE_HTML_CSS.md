@@ -59,7 +59,7 @@ Per “Registrazione per” ho usato radio button:
 <input type="radio" name="registrazione">
 ```
 
-I radio button sono corretti quando l’utente deve scegliere ééuna sola opzione** tra più possibilità. Il fatto che entrambi abbiano lo stesso `name` è fondamentale: è quello che li rende parte dello stesso gruppo. Se i `name` fossero diversi, il browser permetterebbe di selezionarli entrambi, e sarebbe sbagliato!
+I radio button sono corretti quando l’utente deve scegliere **una sola opzione** tra più possibilità. Il fatto che entrambi abbiano lo stesso `name` è fondamentale: è quello che li rende parte dello stesso gruppo. Se i `name` fossero diversi, il browser permetterebbe di selezionarli entrambi, e sarebbe sbagliato!
 
 Per la privacy ho usato una checkbox:
 
