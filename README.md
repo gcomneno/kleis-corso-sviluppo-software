@@ -37,6 +37,7 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 - introduzione a classi e id
 - primi layout multi-colonna con float
 - selettori CSS avanzati e scope degli stili
+- form HTML/CSS con layout, select, radio, textarea e checkbox
 
 ---
 
@@ -95,6 +96,9 @@ Questo permette di:
 
 - [14-css-layout](./14-css-layout)  
   Div, classi, id, box model, float e layout CSS
+
+- [15-html-css-form-layout](./15-html-css-form-layout)  
+  Layout CSS complessi e form di registrazione HTML
 
 ---
 

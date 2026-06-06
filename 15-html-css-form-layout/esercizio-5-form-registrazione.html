@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title> Grande form alla corte di francia </title>
+		
+		<style>
+		*{
+			font-family: sans-serif;
+		}
+		
+		.titolo{
+			padding-bottom: 10px;
+			font-weight: bold;
+		}
+		
+		form{
+			padding: 1%;
+			margin: 30 auto;
+			width: 40%;
+			border: 2px solid blue;
+		}
+		
+		.border{
+			border: 2px solid green;
+		}
+		
+		.sezione{
+			padding-bottom: 10px;
+		}
+			
+		.inputop{
+			width: 60%;
+			float: right;
+			background-color: white;
+		}
+		
+		.extra{
+			width: 100%;
+			height: 100px;
+		}
+		
+		input[type=reset], input[type=submit]
+		{
+			padding: 5px 50px;
+			background-color: blue;
+			border: 2px solid black;
+			color: white;
+		}
+		
+		</style>
+	</head>
+	<body>
+		<form>
+			<div class="titolo"> FORM DI REGISTRAZIONE </div>
+			
+			<div class="sezione">
+				<div class="sezione">
+					<label for="nome">Nome:</label>
+					<input type="text" id="nome" name="nome" class="inputop border">
+				</div>
+				<div class="sezione">
+					<label for="cnome">Cognome:</label>
+					<input type="text" id="cnome" name="cnome" class="inputop border">
+				</div>
+				<div class="sezione">
+					<label for="gen">Genere:</label>
+					<select id="gen" name="gen" class="inputop border">
+						<option value="m">Maschio</option>
+						<option value="f">Femmina</option>
+						<option value="o">Altro</option>
+					</select>
+				</div>
+			</div>
+			
+			<div class="sezione"> Registrazione per: </div>
+			<div class="sezione">
+				<input type="radio" id="singolo" name="quantita" value="solo">
+				<label for="gruppo">Singolo</label>
+			</div>
+			<div class="sezione">
+				<input type="radio" id="gruppo" name="quantita" value="multi">
+				<label for="gruppo">Gruppo</label>
+			</div>
+			
+			<div class="sezione">
+				<textarea id="extra" name="extra" placeholder="Aggiungi qualunque altra informazione possa aiutarci!" class="extra border"></textarea>
+			</div>
+			
+			<div class="sezione">
+				<input type="checkbox" id="privacy" name="privacy" value="Y" required="required">
+				<label for="privacy"> Accetto la <a href="privacy.html">Privacy</a></label>
+			</div>
+			
+			<input type="reset" value="Reset">
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>

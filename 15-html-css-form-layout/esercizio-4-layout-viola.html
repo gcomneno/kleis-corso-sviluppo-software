@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title>titolo della pagina</title>
+		
+		<style>
+		
+		/* RESET */
+		*{
+			margin:0;
+			padding:0;
+			font-size:13px;
+			font-family: Arial,sans-serif,'Times New Roman';
+		}
+		/* CONTENITORE GIALLO */
+		.container{
+			background-color: #C274C3;
+			width: 900px;
+			margin: 0  auto;
+			padding: 10px;
+		}
+		/* CLASSSE GENERICA */
+		.box{
+			padding: 30px 0;
+			border: 3px solid #3b2c0b;
+			text-align: center;
+			color: #FFFFFF;
+			font-weight: bold;
+			margin: 10px 0;
+			height: 150px;
+		}
+		
+		.unquarto{
+			width: 209px;
+		}
+		
+		.border-left{
+			margin: 10px 0 0 10px;
+		}
+		
+		.unmezzo{
+			width: 439px;
+		}
+		
+		.border-big{
+			border: 5px solid #000000;
+		}
+		
+		.left{
+			float:left;
+		}
+		
+		/* CLASSE SPECIFICA PER SETTARE COLORE E PROPRIETA' DEI BOX */
+		.verde{
+			background-color: #3A5F7D;
+		}
+		.arancio{
+			background-color: #de6f07;
+		}
+		.clear{
+			clear:both;
+		}
+		</style>
+		
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="box left unmezzo verde">Box 1</div>
+			<div class="box left unmezzo border-left arancio">Box 2</div>
+			<div class="clear"></div>
+			<div class="box left unquarto verde">Box 3</div>
+			<div class="box left unquarto border-left border-big arancio">Box 4</div>
+			<div class="box left unquarto border-left verde">Box 5</div>
+			<div class="box left unquarto border-left border-big arancio" >Box 6</div>
+			<div class="clear"></div>
+		</div>
+		
+	</body>
+</html>
