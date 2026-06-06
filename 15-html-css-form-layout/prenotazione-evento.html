@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Form di Registrazione</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        form {
+            width: 900px;
+            margin: 0 auto;
+            padding: 10px 70px 25px 70px;
+            border: 2px solid #009fe3;
+        }
+
+        h1 {
+            margin: 0 0 25px 0;
+            font-size: 28px;
+        }
+
+        .row {
+            margin-bottom: 18px;
+        }
+
+        label {
+            display: inline-block;
+            width: 220px;
+            font-size: 28px;
+        }
+
+        input[type="text"],
+        select {
+            width: 500px;
+            height: 55px;
+            border: 2px solid #43a62a;
+            font-size: 24px;
+            padding: 5px;
+        }
+
+        .section-title {
+            font-size: 26px;
+            margin: 25px 0 15px 0;
+        }
+
+        .radio-row {
+            margin: 18px 0;
+        }
+
+        .radio-row input[type="radio"] {
+            width: 42px;
+            height: 42px;
+            vertical-align: middle;
+            margin-right: 25px;
+            accent-color: #43a62a;
+        }
+
+        .radio-row label {
+            width: auto;
+            font-size: 28px;
+            vertical-align: middle;
+        }
+
+        textarea {
+            width: 100%;
+            height: 170px;
+            border: 2px solid #43a62a;
+            font-size: 28px;
+            text-align: center;
+            padding-top: 65px;
+            resize: none;
+        }
+
+        .privacy {
+            margin: 18px 0 10px 50px;
+        }
+
+        .privacy input[type="checkbox"] {
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+            margin-right: 18px;
+            accent-color: #43a62a;
+        }
+
+        .privacy label {
+            width: auto;
+            font-size: 26px;
+            vertical-align: middle;
+        }
+
+        .terms {
+            margin-left: 50px;
+            font-size: 26px;
+        }
+
+        .terms a {
+            color: #000000;
+            text-decoration: underline;
+        }
+
+        .buttons {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        input[type="reset"],
+        input[type="submit"] {
+            width: 300px;
+            height: 60px;
+            margin: 0 25px;
+            background-color: #17687f;
+            border: 3px solid #073044;
+            color: white;
+            font-size: 26px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <h1>FORM DI REGISTRAZIONE</h1>
+
+        <div class="row">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+        </div>
+
+        <div class="row">
+            <label for="cognome">Cognome</label>
+            <input type="text" id="cognome" name="cognome">
+        </div>
+
+        <div class="row">
+            <label for="genere">Genere</label>
+            <select id="genere" name="genere">
+                <option value=""></option>
+                <option value="m">Maschio</option>
+                <option value="f">Femmina</option>
+                <option value="o">Altro</option>
+            </select>
+        </div>
+
+        <div class="section-title">Registrazione per:</div>
+
+        <div class="radio-row">
+            <input type="radio" id="singolo" name="registrazione" value="singolo">
+            <label for="singolo">Singolo</label>
+        </div>
+
+        <div class="radio-row">
+            <input type="radio" id="gruppo" name="registrazione" value="gruppo">
+            <label for="gruppo">Gruppo</label>
+        </div>
+
+        <textarea id="note" name="note">Note</textarea>
+
+        <div class="privacy">
+            <input type="checkbox" id="privacy" name="privacy" value="ok">
+            <label for="privacy">Accettazione Privacy</label>
+        </div>
+
+        <div class="terms">
+            <a href="#">Click per le condizioni di registrazione</a>
+        </div>
+
+        <div class="buttons">
+            <input type="reset" value="Reset Form">
+            <input type="submit" value="Invia Registrazione">
+        </div>
+    </form>
+
+</body>
+</html>
