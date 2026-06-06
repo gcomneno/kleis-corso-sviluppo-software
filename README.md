@@ -38,6 +38,7 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 - primi layout multi-colonna con float
 - selettori CSS avanzati e scope degli stili
 - form HTML/CSS con layout, select, radio, textarea e checkbox
+- pre-test HTML/CSS a risposta multipla con soluzioni separate
 
 ---
 
@@ -99,6 +100,9 @@ Questo permette di:
 
 - [15-html-css-form-layout](./15-html-css-form-layout)  
   Layout CSS complessi e form di registrazione HTML
+
+- [16-html-css-test-prep](./16-html-css-test-prep)  
+  Pre-test HTML/CSS a risposta multipla con soluzioni separate
 
 ---
 
