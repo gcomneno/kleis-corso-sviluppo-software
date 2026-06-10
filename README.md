@@ -70,64 +70,64 @@ Questo permette di:
 
 ## Teoria, metodo e progettazione
 
-- [01-analisi-rischio](./theory/01-analisi-rischio)  
+- [01-analisi-rischio](./theory/01-analisi-rischio)
   Lezioni apprese sull'analisi del rischio
 
 ---
 
 ## Esercitazioni C#
 
-- [01-type-inspector](./csharp/01-type-inspector)  
+- [01-type-inspector](./csharp/01-type-inspector)
   Tipi base e ispezione dei valori
 
-- [02-min-max](./csharp/02-min-max)  
+- [02-min-max](./csharp/02-min-max)
   Logica condizionale e confronto
 
-- [03-stringhe](./csharp/03-stringhe)  
+- [03-stringhe](./csharp/03-stringhe)
   Stringhe, metodi, immutabilità, confronto con C
 
-- [04-calcolatrice](./csharp/04-calcolatrice)  
+- [04-calcolatrice](./csharp/04-calcolatrice)
   Input utente, validazione, metodi, gestione errori
 
-- [05-triangolo](./csharp/05-triangolo)  
+- [05-triangolo](./csharp/05-triangolo)
   Validazione semantica, metodi riutilizzabili, operatore ternario
 
-- [06-codice-fiscale](./csharp/06-codice-fiscale)  
+- [06-codice-fiscale](./csharp/06-codice-fiscale)
   Generatore semplificato del codice fiscale italiano
 
-- [07-ripasso-array-top-down](./csharp/07-ripasso-array-top-down)  
+- [07-ripasso-array-top-down](./csharp/07-ripasso-array-top-down)
   Array, statistiche, ricerca, top-down design e refactoring
 
-- [08-gestione-voti-menu](./csharp/08-gestione-voti-menu)  
+- [08-gestione-voti-menu](./csharp/08-gestione-voti-menu)
   Gestione voti classe con menu, array, metodi e validazione input
 
 ---
 
 ## HTML / Web Base
 
-- [01-html-base](./web/01-html-base)  
+- [01-html-base](./web/01-html-base)
   Struttura base HTML, link, liste, tabelle e path relativi
 
-- [02-css-base](./web/02-css-base)  
+- [02-css-base](./web/02-css-base)
   Selettori CSS, scope, padding, nesting e separazione struttura/stile
 
-- [03-html-forms](./web/03-html-forms)  
+- [03-html-forms](./web/03-html-forms)
   Form HTML, input, login, recupero password e UX base
 
-- [04-css-layout](./web/04-css-layout)  
+- [04-css-layout](./web/04-css-layout)
   Div, classi, id, box model, float e layout CSS
 
-- [05-html-css-form-layout](./web/05-html-css-form-layout)  
+- [05-html-css-form-layout](./web/05-html-css-form-layout)
   Layout CSS complessi e form di registrazione HTML
 
 ---
 
 ## Pre-test e materiali di ripasso
 
-- [01-html-css](./test-prep/01-html-css)  
+- [01-html-css](./test-prep/01-html-css)
   Pre-test HTML/CSS a risposta multipla con soluzioni separate
 
-- [02-csharp](./test-prep/02-csharp)  
+- [02-csharp](./test-prep/02-csharp)
   Pre-test C# a risposta multipla con soluzioni separate
 
 ## Approccio
