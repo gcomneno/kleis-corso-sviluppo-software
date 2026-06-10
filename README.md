@@ -98,6 +98,9 @@ Questo permette di:
 - [07-ripasso-array-top-down](./csharp/07-ripasso-array-top-down)  
   Array, statistiche, ricerca, top-down design e refactoring
 
+- [08-gestione-voti-menu](./csharp/08-gestione-voti-menu)  
+  Gestione voti classe con menu, array, metodi e validazione input
+
 ---
 
 ## HTML / Web Base
