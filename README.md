@@ -50,6 +50,7 @@ Il repository è organizzato in tre macro-aree:
 - `csharp/` → esercitazioni e ripassi C#
 - `web/` → esercitazioni HTML/CSS
 - `test-prep/` → pre-test e materiali di ripasso
+- `theory/` → appunti teorici, metodo, analisi e progettazione
 
 Ogni esercitazione resta organizzata in modo indipendente:
 
@@ -64,6 +65,13 @@ Questo permette di:
 - isolare i problemi
 - evitare conflitti tra esercizi
 - mantenere ordine nel tempo
+
+---
+
+## Teoria, metodo e progettazione
+
+- [01-analisi-rischio](./theory/01-analisi-rischio)  
+  Lezioni apprese sull'analisi del rischio
 
 ---
 
