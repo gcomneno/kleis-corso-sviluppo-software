@@ -110,7 +110,17 @@ Indica che un campo deve essere compilato prima dell'invio.
 ## Curiosità nerd
 
 Una form HTML da sola NON salva dati.
-Per salvare davvero i dati serve un backend, cioè un programma lato server che riceve, valida e memorizza le informazioni.
+
+La form può raccogliere dati e inviarli, ma per salvarli davvero serve un backend, cioè un programma lato server che riceve, valida e memorizza le informazioni.
+
+La validazione può essere fatta anche lato frontend, per aiutare subito l’utente a correggere gli errori.
+
+Però la validazione davvero obbligatoria deve stare anche lato backend, perché il backend può essere chiamato direttamente tramite API, senza passare dalla pagina HTML.
+
+Regola d’oro:
+
+Frontend = aiuta l’utente.
+Backend = protegge il sistema.
 
 ## Morale finale
 
@@ -118,6 +128,7 @@ HTML costruisce la struttura.
 CSS controlla l'aspetto.
 
 Le form introducono il primo vero contatto tra:
+
 - interfaccia utente
 - dati
 - futuro backend
