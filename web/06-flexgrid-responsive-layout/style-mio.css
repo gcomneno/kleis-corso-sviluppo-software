@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+  background: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  background: #ddd;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* CONTAINER PRINCIPALE */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* CONTENUTO (DEFAULT MOBILE = FLEX COLONNA) */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* CARD */
+.card {
+  background: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* SIDEBAR */
+.sidebar {
+  background: #e8e8e8;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 📟 TABLET */
+@media (min-width: 768px) {
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* 🖥 DESKTOP */
+@media (min-width: 1024px) {
+
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .content {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sidebar {
+    flex: 1;
+    position: sticky;
+    top: 20px;
+  }
+}

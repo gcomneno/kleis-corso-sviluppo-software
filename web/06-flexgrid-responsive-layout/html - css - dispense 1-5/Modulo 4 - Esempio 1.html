@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito con Dimensioni Fisse</title>
+    <style>
+        .container {
+            width: 1024px;
+            margin: 0 auto;
+        }
+        .header {
+            background-color: yellow;
+            height: 100px;
+        }
+        .content {
+            background-color: blue;
+            width: 750px;
+            float: left;
+            height: 300px;
+        }
+        .sidebar {
+            background-color: red;
+            width: 250px;
+            float: left;
+            margin-left: 10px;
+            height: 300px;
+        }
+        .clear {
+            clear: both;
+        }
+        .footer {
+            background-color: purple;
+            height: 100px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="content">Contenuto</div>
+        <div class="sidebar">Sidebar</div>
+        <div class="clear"></div>
+        <div class="footer">Footer</div>
+    </div>
+
+</body>
+</html>
