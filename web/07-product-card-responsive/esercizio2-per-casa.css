@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.filtro{
+    display:none;
+}
+
+
+/*container e configurazioni varie*/
+
+.container{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+
+/*header e menu*/
+
+.header{
+    background-color: #f2f2f2;
+    color: white;
+}
+
+.logo{
+    width: 100px;
+    margin: 10px auto;
+    display: block;
+}
+
+ul.menu{
+    list-style-type: none;
+}
+
+ul.menu li{
+    margin: 3px 10px;
+    background-color: #333;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+ul.menu li:hover{
+    background-color: brown;
+}
+
+ul.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul.menu li a:hover{
+    text-decoration: underline;
+}
+
+/* prodotti*/
+
+.prodotti{
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.prodotti div img{
+    width: 95%;
+    margin: 10px;
+}
+
+.prodotti div h5{
+    text-align: center;
+    margin: 10px;
+    color: blue;
+}
+
+/* footer */
+
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.clear{
+    clear:both;
+}
+
+@media (min-width: 700px) {
+  
+    .logo{
+        float: left;
+        margin: 10px 10px;
+    }
+
+    .menu{
+        float:left;
+        margin: 28px 5px;
+    }
+    .menu li {
+        display: inline-block;
+        width: 130px;
+        text-align: center;
+    }
+
+    .prodotti div{
+        float: left;
+        width: 25%;
+    }
+    .prodotti div img{
+        max-width: 250px;
+    }
+
+    .prodotti{
+        width: 75%;
+        float: left;
+    }
+
+    .filtro{
+        width: 20%;
+        float: right;
+        display:block;
+    }
+
+    .footer{
+        min-height: 100px;
+    }
+
+    /* filtri categorie */
+
+    .filtro input{
+        border: 1px solid #000;
+        width: 90%;
+        padding: 5px;
+    }
+
+    .filtro input[type="text"]{
+        margin: 5px auto;
+    }
+
+    .filtro input[type="submit"]{
+        background-color: #333;
+        color: white;
+        margin: 0px auto;
+    }
+
+     ul.categorie{
+        list-style-type: none;
+        margin: 10px auto;
+    }
+
+    ul.categorie li{
+        margin: 3px 0px;
+        background-color: #333;
+        padding: 3px 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        width: 80%;
+    }
+
+    ul.categorie li a{
+        color: white;
+        text-decoration: none;
+    }
+
+    ul.categorie li:hover{
+        background-color: brown;
+    }
+
+    ul.categorie li a:hover{
+        text-transform: uppercase;
+    }
+}
+
+/*
+    aggiungere un mediaquery per schermi sopra i 1000 px di larghezza, 
+    in cui i prodotti visualizzati sono 5 per riga e mostrare un testo descrittivo 
+    all'interno di ciascuna scheda sotto al titolo del prodotto.
+    Al termine aggiungere un link a ciascuna scheda prodotto che rimandi ad una pagina 
+    di dettaglio del prodotto stesso aprendo la scheda in nuova finestra.
+    
+    Per casa: creare una scheda prodotto di dettagli con:
+    - nome prodotto
+    - immagine
+    - descrizione
+    - griglia con le caratteristiche del prodotto (tabella in html caratteristica - valore)
+
+    vedi immagine allegata per esempio di scheda prodotto.
+*/
