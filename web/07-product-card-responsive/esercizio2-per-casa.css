@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.filtro{
+.filtro, .prodotti div p{
     display:none;
 }
 
@@ -170,6 +170,18 @@ ul.menu li a:hover{
         text-transform: uppercase;
     }
 }
+
+
+@media (min-width: 1000px) {
+    .prodotti div{
+        width: 20%;
+    }
+
+    .prodotti div p{
+        display:block;
+    }
+}
+
 
 /*
     aggiungere un mediaquery per schermi sopra i 1000 px di larghezza, 
