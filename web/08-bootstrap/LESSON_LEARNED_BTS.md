@@ -435,3 +435,78 @@ Cose che non sapevo bene:
 - La cosa importante non è copiare il file finale, ma capire quali mattoncini lo compongono.
 
 🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Sito-Vetrina, Workflow, Mental-Model
+
+## 28 · FAQ accordion
+
+Cose che non sapevo bene:
+
+- L'accordion Bootstrap è utile per sezioni FAQ.
+- `accordion` è il contenitore generale del componente.
+- `accordion-item` rappresenta una singola domanda/risposta.
+- `accordion-header` contiene l'intestazione della domanda.
+- `accordion-button` è il pulsante cliccabile che apre o chiude la risposta.
+- `data-bs-target="#..."` collega il bottone al pannello da aprire.
+- `accordion-collapse collapse` definisce il contenuto richiudibile.
+- `show` indica quale elemento è aperto all'inizio.
+- `data-bs-parent="#..."` fa comportare gli elementi come un gruppo coordinato.
+- L'accordion usa il comportamento Collapse, quindi richiede il JavaScript di Bootstrap.
+- Una FAQ accordion permette di mostrare molte informazioni senza allungare troppo la pagina.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Bootstrap-Component, Accordion, FAQ, JavaScript, Mental-Model
+
+## 29 · Modal informativa
+
+Cose che non sapevo bene:
+
+- La modal Bootstrap serve a mostrare un popup sopra la pagina corrente.
+- Una modal è utile per dettagli, conferme, informazioni extra o contenuti che non devono occupare spazio fisso nella pagina.
+- `modal fade` definisce il componente modal con animazione.
+- L'attributo `id` della modal serve come bersaglio dei bottoni che la aprono.
+- `data-bs-toggle="modal"` dice a Bootstrap che un elemento deve aprire una modal.
+- `data-bs-target="#..."` collega il bottone alla modal da aprire.
+- `modal-dialog` definisce il contenitore del dialog.
+- `modal-dialog-centered` centra verticalmente la modal.
+- `modal-content` contiene la struttura interna della modal.
+- `modal-header`, `modal-body` e `modal-footer` separano titolo, contenuto e azioni.
+- `data-bs-dismiss="modal"` chiude la modal.
+- La modal richiede il JavaScript di Bootstrap.
+- Una modal va usata per contenuti secondari o azioni importanti, non per nascondere informazioni essenziali.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Bootstrap-Component, Modal, JavaScript, UX, Mental-Model
+
+## 30 · Portfolio carousel
+
+Cose che non sapevo bene:
+
+- Il carousel Bootstrap serve a mostrare contenuti a rotazione.
+- Ha senso usarlo quando ci sono più immagini, screenshot, progetti o anteprime da mostrare nello stesso spazio.
+- Non va usato solo perché “fa movimento”: deve avere uno scopo reale.
+- `carousel slide` definisce il componente carousel.
+- `data-bs-ride="carousel"` abilita lo scorrimento automatico.
+- `carousel-inner` contiene tutte le slide.
+- `carousel-item active` indica la prima slide visibile.
+- `carousel-item` definisce ogni slide successiva.
+- `d-block w-100` rende l'immagine larga quanto il carousel.
+- `carousel-caption` aggiunge una didascalia sopra la slide.
+- `d-none d-md-block` nasconde la didascalia su mobile e la mostra da `md` in su.
+- `carousel-control-prev` e `carousel-control-next` aggiungono i controlli avanti/indietro.
+- `carousel-indicators` aggiunge gli indicatori delle slide.
+- Il carousel richiede il JavaScript di Bootstrap.
+- In un sito vetrina può essere sensato per una sezione portfolio o progetti.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Bootstrap-Component, Carousel, Portfolio, JavaScript, UX, Mental-Model
+
+## 31 · Mini-sito completo plus components
+
+Cose che non sapevo bene:
+
+- Una pagina Bootstrap può integrare più componenti interattivi nello stesso mini-sito.
+- Navbar, hero, servizi, portfolio carousel, FAQ accordion, modal, contatti e footer possono convivere in una struttura unica.
+- Accordion, modal, carousel e navbar responsive richiedono il JavaScript di Bootstrap.
+- Il tema Bootswatch cambia l'aspetto globale senza cambiare la grammatica Bootstrap.
+- Il valore reale di Bootstrap emerge componendo sezioni e componenti, non studiando classi isolate.
+- Un mini-sito professionale di base può essere costruito rapidamente senza CSS custom.
+- La cosa importante è capire il ruolo di ogni mattoncino: layout, utility, componente, tema, comportamento JavaScript.
+- Il file finale plus serve come esempio di sintesi del percorso.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Sito-Vetrina, Components, JavaScript, Theme, Workflow, Mental-Model

@@ -71,3 +71,25 @@ raccoglie i concetti principali della prima parte del laboratorio in una pagina 
 - layout responsive mobile-first.
 
 Questo esempio mostra come Bootstrap permetta di costruire rapidamente un mini-sito vetrina componendo classi, utility e componenti già studiati.
+
+## Esempio finale plus
+
+Il file:
+
+`examples/32-mini-site-complete-plus-components-dark.html`
+
+raccoglie la versione più completa del laboratorio Bootstrap.
+
+Include:
+
+- navbar responsive;
+- hero section;
+- sezione servizi/features;
+- portfolio carousel;
+- FAQ accordion;
+- modal informativa;
+- sezione contatti con form;
+- footer responsive;
+- tema Bootswatch Darkly.
+
+Questo esempio mostra il passaggio da singoli componenti Bootstrap a una pagina vetrina completa e interattiva.
