@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Tema Bootswatch: Sandstone -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.2/dist/sandstone/bootstrap.min.css"
+      rel="stylesheet"
+    >
+
+    <title>Bootstrap · Forms base</title>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1>Forms base</h1>
+      <p class="mb-4">
+        Bootstrap rende più ordinati label, input, select e textarea.
+      </p>
+
+      <div class="card">
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nome"
+                placeholder="Mario Rossi"
+              >
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="nome@example.com"
+              >
+            </div>
+
+            <div class="mb-3">
+              <label for="ruolo" class="form-label">Ruolo</label>
+              <select id="ruolo" class="form-select">
+                <option selected>Seleziona un ruolo</option>
+                <option value="backend">Backend developer</option>
+                <option value="frontend">Frontend developer</option>
+                <option value="fullstack">Full stack developer</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="messaggio" class="form-label">Messaggio</label>
+              <textarea
+                class="form-control"
+                id="messaggio"
+                rows="4"
+                placeholder="Scrivi qui il tuo messaggio"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Invia</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
