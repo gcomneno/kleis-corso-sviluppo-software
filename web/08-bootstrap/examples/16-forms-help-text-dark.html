@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Tema Bootswatch: Darkly -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.2/dist/darkly/bootstrap.min.css"
+      rel="stylesheet"
+    >
+
+    <title>Bootstrap · Forms help text dark</title>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1>Forms · Help text</h1>
+      <p class="mb-4">
+        Il testo di aiuto chiarisce cosa inserire in un campo.
+      </p>
+
+      <div class="card">
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+                placeholder="nome@example.com"
+              >
+              <div id="emailHelp" class="form-text">
+                Useremo questa email solo per rispondere alla richiesta.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                aria-describedby="passwordHelp"
+                placeholder="Minimo 8 caratteri"
+              >
+              <div id="passwordHelp" class="form-text">
+                Usa almeno 8 caratteri. Meglio se con lettere, numeri e simboli.
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Crea account</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

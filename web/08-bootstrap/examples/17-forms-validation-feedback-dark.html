@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Tema Bootswatch: Darkly -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.2/dist/darkly/bootstrap.min.css"
+      rel="stylesheet"
+    >
+
+    <title>Bootstrap · Forms validation feedback dark</title>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1>Forms · Validation feedback</h1>
+      <p class="mb-4">
+        Bootstrap può comunicare visivamente se un campo è valido o non valido.
+      </p>
+
+      <div class="card">
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome valido</label>
+              <input
+                type="text"
+                class="form-control is-valid"
+                id="nome"
+                value="Giancarlo"
+              >
+              <div class="valid-feedback">
+                Nome inserito correttamente.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email non valida</label>
+              <input
+                type="email"
+                class="form-control is-invalid"
+                id="email"
+                value="email-sbagliata"
+              >
+              <div class="invalid-feedback">
+                Inserisci un indirizzo email valido.
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Invia</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -205,3 +205,151 @@ Cose che non sapevo bene:
 - Il tema non elimina la necessità di capire Bootstrap: cambia il vestito, non la grammatica.
 
 🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Theme, Bootswatch, Mental-Model
+
+## 14 · Forms base con tema Darkly
+
+Cose che non sapevo bene:
+
+- Bootstrap dà uno stile coerente anche ai form.
+- `form-label` serve a stilizzare le label dei campi.
+- Il collegamento `for` della label con `id` del campo resta importante per chiarezza e accessibilità.
+- `form-control` si usa per input testuali e textarea.
+- `form-select` si usa per i menu `<select>`.
+- `mb-3` aiuta a separare visivamente i gruppi campo.
+- Con un tema Bootswatch, anche i form seguono la stessa pelle grafica del resto dell'interfaccia.
+- Un form Bootstrap non è solo più bello: è più coerente, leggibile e prevedibile.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Bootstrap-Component, Forms, Theme, Mental-Model
+
+## Concetto core · Bootstrap per siti vetrina e prototipi
+
+Cose che non sapevo bene:
+
+- Bootstrap permette di creare rapidamente siti vetrina, landing page, prototipi e interfacce semplici.
+- Il vantaggio principale non è solo estetico, ma operativo: layout, componenti e responsive sono già organizzati.
+- `container`, grid, card, buttons, forms e temi coprono molti bisogni comuni.
+- Bootswatch permette di cambiare aspetto globale senza riscrivere il markup.
+- Bootstrap è molto utile quando serve una UI coerente in poco tempo.
+- Il rischio è creare siti tutti uguali o non capire cosa si sta componendo.
+- Per usarlo bene bisogna capire la grammatica delle classi, non copiare pezzi a caso.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Workflow, Prototype, Sito-Vetrina, Mental-Model
+
+## 15 · Forms help text
+
+Cose che non sapevo bene:
+
+- `form-text` serve a mostrare un testo di aiuto sotto un campo.
+- Il testo di aiuto rende il form più chiaro e riduce ambiguità.
+- `aria-describedby` collega un input al testo che lo descrive.
+- L'`id` del testo di aiuto deve corrispondere al valore di `aria-describedby`.
+- Help text e accessibilità vanno progettati insieme.
+- Un buon form non deve solo raccogliere dati: deve aiutare l'utente a inserirli correttamente.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Bootstrap-Component, Forms, Accessibility, Mental-Model
+
+## 16 · Forms validation feedback
+
+Cose che non sapevo bene:
+
+- Bootstrap può mostrare feedback visivo per campi validi o non validi.
+- `is-valid` mostra un campo come valido.
+- `is-invalid` mostra un campo come non valido.
+- `valid-feedback` mostra il messaggio positivo.
+- `invalid-feedback` mostra il messaggio di errore.
+- Le classi `is-valid` e `is-invalid` non validano davvero i dati: comunicano solo uno stato visivo.
+- La logica di validazione può arrivare da HTML5, JavaScript o backend.
+- Validazione e feedback non sono la stessa cosa: una decide, l'altro comunica.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Bootstrap-Component, Forms, Validation, Mental-Model
+
+## 17 · Forms checkbox e radio
+
+Cose che non sapevo bene:
+
+- Bootstrap usa `form-check` per organizzare checkbox e radio.
+- `form-check-input` si applica all'input checkbox/radio.
+- `form-check-label` si applica alla label collegata.
+- Le checkbox permettono di selezionare più opzioni.
+- I radio button servono a scegliere una sola opzione dentro un gruppo.
+- Nei radio button il gruppo è determinato dall'attributo HTML `name`.
+- Più radio con lo stesso `name` permettono una sola scelta alla volta.
+- Bootstrap migliora aspetto e layout, ma alcuni comportamenti fondamentali restano HTML puro.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Bootstrap-Component, Forms, HTML-Core, Mental-Model
+
+## 18 · Forms grid layout
+
+Cose che non sapevo bene:
+
+- La grid Bootstrap può essere usata anche dentro i form.
+- `row g-3` organizza i campi e aggiunge spazio tra righe e colonne.
+- `col-12 col-md-6` rende un campo largo tutta la riga su mobile e metà riga da `md` in su.
+- `col-12 col-md-8` e `col-12 col-md-4` permettono layout proporzionali anche nei form.
+- I campi possono impilarsi su schermi piccoli e affiancarsi su schermi più grandi.
+- La grid evita di scrivere media query custom per molti form comuni.
+- Bootstrap permette di combinare Forms, Grid, Gutters e Theme nello stesso esempio.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Bootstrap-Component, Forms, Grid, Responsive, Mental-Model
+
+## 19 · Forms input groups
+
+Cose che non sapevo bene:
+
+- `input-group` permette di raggruppare input con testo, simboli o bottoni.
+- `input-group-text` serve per elementi testuali agganciati all'input.
+- `form-control` resta l'input principale.
+- Simboli come `@`, `€` o `.00` possono diventare parte visiva del controllo.
+- Anche un bottone Bootstrap può essere inserito dentro un `input-group`.
+- Gli input group sono utili per username, prezzi, ricerca, URL, email e campi con prefissi o suffissi.
+- Il vantaggio è creare controlli più chiari e integrati senza CSS custom.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Bootstrap-Component, Forms, Input-Group, Mental-Model
+
+## 20 · Alerts
+
+Cose che non sapevo bene:
+
+- Gli alert servono a comunicare messaggi importanti all'utente.
+- `alert` definisce il componente base.
+- `alert-success` comunica successo o esito positivo.
+- `alert-info` comunica informazioni utili o neutre.
+- `alert-warning` comunica attenzione o possibile rischio.
+- `alert-danger` comunica errore o problema grave.
+- Gli alert seguono lo stesso pattern dei bottoni: classe base più variante semantica.
+- Le varianti aiutano l'utente a capire il tipo di messaggio anche prima di leggere tutto il testo.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Bootstrap-Component, Alerts, Semantic-UI, Mental-Model
+
+## 21 · Dismissible alerts
+
+Cose che non sapevo bene:
+
+- Un alert Bootstrap può essere reso chiudibile dall'utente.
+- `alert-dismissible` prepara l'alert ad avere un pulsante di chiusura.
+- `fade show` aggiunge/completa l'effetto visivo di comparsa.
+- `btn-close` crea il pulsante di chiusura.
+- `data-bs-dismiss="alert"` dice a Bootstrap quale componente chiudere.
+- Per chiudere davvero l'alert serve il JavaScript di Bootstrap.
+- CSS e JavaScript hanno ruoli diversi: il CSS dà aspetto, il JS dà comportamento interattivo.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Bootstrap-Component, Alerts, JavaScript, Mental-Model
+
+## 22 · Navbar responsive
+
+Cose che non sapevo bene:
+
+- La navbar Bootstrap è un componente già pronto per la navigazione.
+- `navbar` definisce il componente base.
+- `navbar-expand-lg` indica che la navbar resta espansa da `lg` in su.
+- Sotto il breakpoint indicato, la navbar collassa nel pulsante hamburger.
+- `navbar-dark` adatta testi e icone a uno sfondo scuro.
+- `bg-primary` applica il colore primary del tema.
+- `navbar-brand` identifica il nome/logo del sito.
+- `navbar-nav`, `nav-item` e `nav-link` organizzano i link di navigazione.
+- `navbar-toggler` è il pulsante hamburger.
+- `data-bs-toggle="collapse"` e `data-bs-target="#..."` collegano il bottone al menu collassabile.
+- Il comportamento responsive/collapse della navbar richiede il JavaScript di Bootstrap.
+- La navbar combina componenti, utility, breakpoint responsive e JavaScript.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Bootstrap-Component, Navbar, Responsive, JavaScript, Mental-Model

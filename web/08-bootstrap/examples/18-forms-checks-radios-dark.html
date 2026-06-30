@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Tema Bootswatch: Darkly -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.2/dist/darkly/bootstrap.min.css"
+      rel="stylesheet"
+    >
+
+    <title>Bootstrap · Checks and radios dark</title>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1>Forms · Checkbox e radio</h1>
+      <p class="mb-4">
+        Checkbox e radio servono a scegliere opzioni, ma hanno significati diversi.
+      </p>
+
+      <div class="card">
+        <div class="card-body">
+          <form>
+            <h2>Interessi</h2>
+            <p class="form-text">
+              Puoi scegliere più interessi.
+            </p>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="backend" id="interestBackend">
+              <label class="form-check-label" for="interestBackend">
+                Backend development
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="frontend" id="interestFrontend">
+              <label class="form-check-label" for="interestFrontend">
+                Frontend development
+              </label>
+            </div>
+
+            <div class="form-check mb-4">
+              <input class="form-check-input" type="checkbox" value="devops" id="interestDevops">
+              <label class="form-check-label" for="interestDevops">
+                DevOps
+              </label>
+            </div>
+
+            <h2>Livello</h2>
+            <p class="form-text">
+              Puoi scegliere un solo livello.
+            </p>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="level" id="levelJunior" value="junior">
+              <label class="form-check-label" for="levelJunior">
+                Junior
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="level" id="levelMiddle" value="middle">
+              <label class="form-check-label" for="levelMiddle">
+                Middle
+              </label>
+            </div>
+
+            <div class="form-check mb-4">
+              <input class="form-check-input" type="radio" name="level" id="levelSenior" value="senior">
+              <label class="form-check-label" for="levelSenior">
+                Senior
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Salva preferenze</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

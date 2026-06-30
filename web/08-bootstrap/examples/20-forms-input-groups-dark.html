@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Tema Bootswatch: Darkly -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.2/dist/darkly/bootstrap.min.css"
+      rel="stylesheet"
+    >
+
+    <title>Bootstrap · Forms input groups dark</title>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1>Forms · Input groups</h1>
+      <p class="mb-4">
+        Gli input group permettono di agganciare testo, simboli o bottoni agli input.
+      </p>
+
+      <div class="card">
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <div class="input-group">
+                <span class="input-group-text">@</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  placeholder="giancarlo"
+                >
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="prezzo" class="form-label">Prezzo</label>
+              <div class="input-group">
+                <span class="input-group-text">€</span>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="prezzo"
+                  placeholder="99"
+                >
+                <span class="input-group-text">.00</span>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="ricerca" class="form-label">Ricerca</label>
+              <div class="input-group">
+                <input
+                  type="search"
+                  class="form-control"
+                  id="ricerca"
+                  placeholder="Cerca nel sito"
+                >
+                <button class="btn btn-primary" type="button">
+                  Cerca
+                </button>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-success">
+              Salva
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

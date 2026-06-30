@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Tema Bootswatch: Darkly -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.2/dist/darkly/bootstrap.min.css"
+      rel="stylesheet"
+    >
+
+    <title>Bootstrap · Dismissible alerts dark</title>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1>Dismissible alerts</h1>
+      <p class="mb-4">
+        Alcuni alert possono essere chiusi dall'utente.
+      </p>
+
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+        Operazione completata correttamente. Puoi chiudere questo messaggio.
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Chiudi"
+        ></button>
+      </div>
+
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        Attenzione: questo è un messaggio chiudibile.
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Chiudi"
+        ></button>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Tema Bootswatch: Darkly -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.2/dist/darkly/bootstrap.min.css"
+      rel="stylesheet"
+    >
+
+    <title>Bootstrap · Alerts dark</title>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1>Alerts</h1>
+      <p class="mb-4">
+        Gli alert comunicano messaggi importanti all'utente.
+      </p>
+
+      <div class="alert alert-success">
+        Operazione completata correttamente.
+      </div>
+
+      <div class="alert alert-info">
+        Informazione utile: puoi modificare questi dati anche più tardi.
+      </div>
+
+      <div class="alert alert-warning">
+        Attenzione: controlla bene i campi prima di inviare.
+      </div>
+
+      <div class="alert alert-danger">
+        Errore: non è stato possibile salvare i dati.
+      </div>
+
+      <div class="card mt-4">
+        <div class="card-body">
+          <h2 class="card-title">Mini form con alert</h2>
+          <p class="card-text">
+            In una pagina reale, un alert può comparire sopra un form dopo un'azione.
+          </p>
+
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="nome@example.com"
+              >
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              Invia
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
