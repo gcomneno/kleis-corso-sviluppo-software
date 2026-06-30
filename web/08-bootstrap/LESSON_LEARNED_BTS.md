@@ -353,3 +353,85 @@ Cose che non sapevo bene:
 - La navbar combina componenti, utility, breakpoint responsive e JavaScript.
 
 🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Bootstrap-Component, Navbar, Responsive, JavaScript, Mental-Model
+
+## 23 · Hero section
+
+Cose che non sapevo bene:
+
+- Una hero section è il blocco iniziale forte di una pagina vetrina.
+- Bootstrap non richiede per forza un componente specifico chiamato `hero`.
+- Una hero section può essere costruita componendo classi già note.
+- `container` organizza la larghezza del contenuto.
+- `row` e `col-*` dividono la sezione in colonne responsive.
+- `py-*`, `mt-*`, `g-*` gestiscono spaziature verticali e distanza tra colonne.
+- `display-4` rende il titolo più importante visivamente.
+- `lead` rende il testo introduttivo più leggibile.
+- I bottoni `btn`, `btn-primary`, `btn-outline-light`, `btn-lg` creano call to action chiare.
+- Su schermo largo la hero può avere testo a sinistra e card/immagine a destra.
+- Su schermo piccolo i blocchi si impilano grazie alla grid responsive.
+- Il valore di Bootstrap emerge quando si compongono sezioni complete, non solo singoli componenti.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Layout, Hero, Sito-Vetrina, Responsive, Mental-Model
+
+## 24 · Features section / servizi
+
+Cose che non sapevo bene:
+
+- Una sezione servizi/features è un blocco tipico dei siti vetrina.
+- Dopo navbar e hero, una sezione con card aiuta a presentare cosa offre il sito.
+- `text-center` centra titolo e testo introduttivo della sezione.
+- `row g-4` crea una griglia con spazio tra le card.
+- `col-12 col-md-4` impila le card su mobile e le affianca da `md` in su.
+- `card h-100` aiuta ad avere card della stessa altezza visiva nella stessa riga.
+- Le card possono contenere titolo, testo e call to action.
+- Combinando navbar, hero e features section si ottiene già un mini-sito professionale.
+- Bootstrap è molto produttivo quando si compongono sezioni standard invece di ragionare su singole classi isolate.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Layout, Features, Sito-Vetrina, Responsive, Mental-Model
+
+## 25 · Footer
+
+Cose che non sapevo bene:
+
+- Il footer chiude visivamente una pagina o un sito vetrina.
+- Bootstrap non obbliga a usare un componente footer specifico: si può costruire componendo classi già note.
+- `border-top` separa visivamente il footer dal contenuto principale.
+- `py-4` aggiunge spazio verticale sopra e sotto.
+- `container` mantiene il footer allineato al resto della pagina.
+- `row` e `col-*` permettono di organizzare copyright e link in modo responsive.
+- `text-md-end` allinea il testo a destra da `md` in su.
+- Su schermo piccolo gli elementi del footer possono impilarsi in modo ordinato.
+- Un sito vetrina base può essere composto con navbar, hero, features section e footer.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Layout, Footer, Sito-Vetrina, Responsive, Mental-Model
+
+## 26 · Contact section
+
+Cose che non sapevo bene:
+
+- Una sezione contatti rende il sito vetrina più completo e operativo.
+- `id="contatti"` permette ai link interni di puntare direttamente alla sezione.
+- Una sezione contatti può combinare card informativa e form.
+- `col-12 col-lg-5` e `col-12 col-lg-7` creano un layout responsive con due colonne proporzionate.
+- Su schermo piccolo le due colonne si impilano automaticamente.
+- `h-100` aiuta ad avere card della stessa altezza visiva.
+- `list-unstyled` rimuove i pallini da una lista informativa.
+- La grid può essere usata sia per la sezione esterna sia dentro il form.
+- Una pagina Bootstrap può crescere componendo sezioni standard: navbar, hero, servizi, contatti e footer.
+- Questo approccio permette di costruire rapidamente un mini-sito professionale senza CSS custom.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Layout, Contact, Forms, Sito-Vetrina, Responsive, Mental-Model
+
+## 27 · Mini-sito completo
+
+Cose che non sapevo bene:
+
+- I componenti Bootstrap diventano davvero potenti quando vengono composti in una pagina completa.
+- Un mini-sito vetrina può nascere combinando navbar, hero, servizi, contatti e footer.
+- `index.html` può restare un playground corrente.
+- Un file dedicato come `28-mini-site-complete-dark.html` serve a conservare l'esempio finale studiabile.
+- Il valore didattico aumenta quando gli esempi progressivi portano a una pagina completa.
+- Bootstrap permette di passare velocemente da singoli componenti a una pagina professionale di base.
+- La cosa importante non è copiare il file finale, ma capire quali mattoncini lo compongono.
+
+🏷️ Tags: LeLe-Worthy, Bootstrap-Core, Sito-Vetrina, Workflow, Mental-Model

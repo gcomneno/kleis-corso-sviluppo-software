@@ -53,3 +53,21 @@ In pratica:
 
 - Bootstrap resta lo scheletro;
 - Bootswatch cambia la pelle.
+
+## Esempio finale
+
+Il file:
+
+`examples/28-mini-site-complete-dark.html`
+
+raccoglie i concetti principali della prima parte del laboratorio in una pagina unica:
+
+- navbar responsive;
+- hero section;
+- sezione servizi/features;
+- sezione contatti con form;
+- footer;
+- tema Bootswatch Darkly;
+- layout responsive mobile-first.
+
+Questo esempio mostra come Bootstrap permetta di costruire rapidamente un mini-sito vetrina componendo classi, utility e componenti già studiati.
