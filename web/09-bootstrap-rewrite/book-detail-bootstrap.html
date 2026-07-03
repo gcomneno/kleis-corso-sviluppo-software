@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Il Primo Cerchio | Cicellyn Edizioni</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --brand-bordeaux: #8b1e2d;
+      --brand-bordeaux-dark: #6f1724;
+    }
+
+    .text-brand {
+      color: var(--brand-bordeaux) !important;
+    }
+
+    .btn-brand {
+      --bs-btn-color: #fff;
+      --bs-btn-bg: var(--brand-bordeaux);
+      --bs-btn-border-color: var(--brand-bordeaux);
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: var(--brand-bordeaux-dark);
+      --bs-btn-hover-border-color: var(--brand-bordeaux-dark);
+      --bs-btn-active-color: #fff;
+      --bs-btn-active-bg: var(--brand-bordeaux-dark);
+      --bs-btn-active-border-color: var(--brand-bordeaux-dark);
+    }
+
+    .btn-outline-brand {
+      --bs-btn-color: var(--brand-bordeaux);
+      --bs-btn-border-color: var(--brand-bordeaux);
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: var(--brand-bordeaux);
+      --bs-btn-hover-border-color: var(--brand-bordeaux);
+      --bs-btn-active-color: #fff;
+      --bs-btn-active-bg: var(--brand-bordeaux-dark);
+      --bs-btn-active-border-color: var(--brand-bordeaux-dark);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="border-bottom">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="product-showcase-bootstrap.html">
+          <img src="assets/logo-cicellyn-edizioni.png"
+               alt="Cicellyn Edizioni"
+               style="height: 112px; width: auto;">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar" aria-expanded="false" aria-label="Apri menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="product-showcase-bootstrap.html">Catalogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Autori</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contatti</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="py-5 bg-light border-bottom">
+      <div class="container">
+        <p class="text-brand text-uppercase fw-semibold mb-2">Scheda libro</p>
+        <h1 class="display-5 fw-bold mb-0">Il Primo Cerchio</h1>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-md-5 col-lg-4">
+            <div class="card">
+              <img src="assets/books/03-gentiluomo-ombre.png"
+                   class="card-img-top object-fit-contain bg-light p-3"
+                   style="height: 520px;"
+                   alt="Copertina del libro Il Primo Cerchio">
+            </div>
+          </div>
+
+          <div class="col-md-7 col-lg-8">
+            <h2 class="h1">Il Primo Cerchio</h2>
+            <p class="lead">Un romanzo oscuro su potere, memoria e identità.</p>
+
+            <p>
+              Una storia ambientata tra segreti, decisioni irreversibili e ombre che tornano a reclamare il proprio spazio.
+              Il Primo Cerchio apre una saga narrativa fatta di tensione, mistero e conseguenze.
+            </p>
+
+            <div class="row g-3 my-4">
+              <div class="col-sm-6">
+                <div class="border rounded p-3 h-100">
+                  <h3 class="h6 text-uppercase text-muted">Autore</h3>
+                  <p class="mb-0">Giancarlo Cicellyn Comneno</p>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="border rounded p-3 h-100">
+                  <h3 class="h6 text-uppercase text-muted">Genere</h3>
+                  <p class="mb-0">Narrativa visionaria</p>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="border rounded p-3 h-100">
+                  <h3 class="h6 text-uppercase text-muted">Formato</h3>
+                  <p class="mb-0">Cartaceo / Digitale</p>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="border rounded p-3 h-100">
+                  <h3 class="h6 text-uppercase text-muted">Disponibilità</h3>
+                  <p class="mb-0">In catalogo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row gap-2">
+              <a href="#" class="btn btn-brand">Acquista</a>
+              <a href="product-showcase-bootstrap.html" class="btn btn-outline-secondary">Torna al catalogo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light border-top">
+      <div class="container">
+        <h2 class="h3 mb-4">Altri libri della casa editrice</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/books/01-gentiluomo-ombre.png"
+                   class="card-img-top object-fit-contain bg-light p-2"
+                   style="height: 300px;"
+                   alt="Il Gentiluomo delle Ombre">
+              <div class="card-body">
+                <h3 class="card-title h5">Il Gentiluomo delle Ombre</h3>
+                <a href="#" class="btn btn-outline-brand">Scopri di più</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/books/02-gentiluomo-ombre.png"
+                   class="card-img-top object-fit-contain bg-light p-2"
+                   style="height: 300px;"
+                   alt="La Danza delle Ombre - Atto II">
+              <div class="card-body">
+                <h3 class="card-title h5">La Danza delle Ombre</h3>
+                <a href="#" class="btn btn-outline-brand">Scopri di più</a>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4 border-top">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-3">
+      <p class="mb-0">&copy; 2026 Cicellyn Edizioni</p>
+
+      <nav class="d-flex gap-3">
+        <a href="#" class="link-secondary text-decoration-none">Privacy</a>
+        <a href="product-showcase-bootstrap.html" class="link-secondary text-decoration-none">Catalogo</a>
+        <a href="#" class="link-secondary text-decoration-none">Contatti</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
