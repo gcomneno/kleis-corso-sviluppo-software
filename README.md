@@ -24,6 +24,7 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 
 ## Ultimi aggiornamenti
 
+- introduzione alle basi di dati relazionali, DBMS, tabelle, query e chiavi
 - gestione voti classe con menu, array, metodi e validazione input
 - gestione ordini con STEP 1 ad array paralleli
 - refactoring gestione ordini in versione OOP con service layer
@@ -61,6 +62,9 @@ Ogni esercitazione resta organizzata in modo indipendente:
 
 - [01-analisi-rischio](./theory/01-analisi-rischio)  
   Lezioni apprese sull'analisi del rischio
+
+- [02-basi-di-dati](./theory/02-basi-di-dati)  
+  Concetti generali sui database relazionali, DBMS, tabelle, query e chiavi
 
 ---
 
