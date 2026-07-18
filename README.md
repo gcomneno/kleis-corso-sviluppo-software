@@ -24,6 +24,7 @@ L'obiettivo NON è solo far funzionare il codice, ma:
 
 ## Ultimi aggiornamenti
 
+- relazioni tra tabelle e operazioni CRUD SQL sul database MUSICA
 - introduzione alle basi di dati relazionali, DBMS, tabelle, query e chiavi
 - gestione voti classe con menu, array, metodi e validazione input
 - gestione ordini con STEP 1 ad array paralleli
@@ -64,7 +65,7 @@ Ogni esercitazione resta organizzata in modo indipendente:
   Lezioni apprese sull'analisi del rischio
 
 - [02-basi-di-dati](./theory/02-basi-di-dati)  
-  Concetti generali sui database relazionali, DBMS, tabelle, query e chiavi
+  Database relazionali, DBMS, tabelle, query, chiavi, relazioni e CRUD SQL
 
 ---
 
