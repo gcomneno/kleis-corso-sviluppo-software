@@ -26,6 +26,13 @@ Il focus iniziale è sui database relazionali, con particolare riferimento a MyS
 - [Soluzioni commentate](./SOLUZIONI_SQL_SHOP_03.md)
 - [Query SQL pronte](./examples/shop_queries.sql)
 
+### Lezione 4 — Ordinamento, aggregazioni e GROUP BY
+
+- [Lesson Learned](./LESSON_LEARNED_BASI_DI_DATI_04.md)
+- [Laboratorio SQL](./LAB_SQL_AGGREGAZIONE_04.md)
+- [Soluzioni commentate](./SOLUZIONI_SQL_AGGREGAZIONE_04.md)
+- [Query SQL pronte](./examples/shop_aggregation_queries.sql)
+
 ## Obiettivo del modulo
 
 Capire come sono organizzati i dati in un database relazionale e imparare il lessico fondamentale:
@@ -55,3 +62,5 @@ La prima lezione introduce il lessico fondamentale dei database.
 La seconda lezione passa alla pratica: progettazione di più tabelle, relazioni, chiavi primarie, chiavi esterne e prime operazioni SQL CRUD.
 
 La terza lezione consolida SELECT, WHERE, NULL, operatori logici e JOIN attraverso un'esercitazione completa sul database `shop`.
+
+La quarta lezione introduce ordinamento, limitazione dei risultati, valori distinti, funzioni di aggregazione, `GROUP BY` e `HAVING`.
