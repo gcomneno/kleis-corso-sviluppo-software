@@ -17,6 +17,7 @@ PHP è previsto come sviluppo futuro del corso. Al momento il repository non con
 
 ## Ultimi aggiornamenti
 
+- avviata la preparazione del mini-ecommerce finale con roadmap, moduli, flussi, modello dati e checklist d'esame;
 - aggiunto il quiz finale SQL con 60 domande di ripasso e soluzioni commentate;
 - aggiunta la quinta lezione SQL sul progetto e-commerce, con tabelle clienti, ordini, righe d'ordine, chiavi esterne e flusso ordine collegato a PHP;
 - aggiunta la quarta lezione SQL su ordinamento, funzioni di aggregazione, `GROUP BY` e `HAVING`;
@@ -109,6 +110,7 @@ Per eseguire gli script SQL in [`theory/02-basi-di-dati/examples/`](./theory/02-
 
 - [`01-analisi-rischio`](./theory/01-analisi-rischio/) — materiale sulle lezioni apprese nell'analisi del rischio;
 - [`02-basi-di-dati`](./theory/02-basi-di-dati/) — percorso didattico completo sulle basi di dati relazionali e SQL.
+- [`03-mini-ecommerce`](./theory/03-mini-ecommerce/) — preparazione del progetto finale: roadmap, moduli, modello dati, flussi utente e checklist d'esame.
 
 Il modulo sulle basi di dati è organizzato in cinque lezioni:
 
