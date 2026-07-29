@@ -17,6 +17,7 @@ PHP è previsto come sviluppo futuro del corso. Al momento il repository non con
 
 ## Ultimi aggiornamenti
 
+- aggiunto il quiz finale SQL con 60 domande di ripasso e soluzioni commentate;
 - aggiunta la quinta lezione SQL sul progetto e-commerce, con tabelle clienti, ordini, righe d'ordine, chiavi esterne e flusso ordine collegato a PHP;
 - aggiunta la quarta lezione SQL su ordinamento, funzioni di aggregazione, `GROUP BY` e `HAVING`;
 - aggiunto il percorso `web/09-bootstrap-rewrite`, con tre riscritture Bootstrap di esercizi precedenti, quiz, soluzioni e Lesson Learned;

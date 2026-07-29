@@ -73,3 +73,8 @@ La terza lezione consolida SELECT, WHERE, NULL, operatori logici e JOIN attraver
 La quarta lezione introduce ordinamento, limitazione dei risultati, valori distinti, funzioni di aggregazione, `GROUP BY` e `HAVING`.
 
 La quinta lezione trasforma il database `shop` da semplice catalogo musicale a base dati per un mini e-commerce, introducendo tabelle clienti, ordini, righe d'ordine, prezzi, chiavi esterne e flusso di registrazione ordine.
+
+## Verifica finale SQL
+
+- [Quiz SQL finale](./QUIZ_SQL_FINALE.md)
+- [Soluzioni quiz SQL finale](./QUIZ_SQL_FINALE_SOLUTIONS.md)
