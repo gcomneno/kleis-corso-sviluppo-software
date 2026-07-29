@@ -10,16 +10,17 @@ Il percorso attualmente presente comprende:
 - HTML e CSS: struttura delle pagine, collegamenti, tabelle, form, selettori, box model e layout;
 - responsive design: Flexbox, Grid e media query;
 - Bootstrap 5: griglia, utility, componenti, form e riscrittura di interfacce esistenti;
-- basi di dati relazionali e SQL: DBMS, tabelle, chiavi, relazioni, CRUD, filtri, `NULL`, `JOIN`, ordinamento, aggregazioni e raggruppamenti;
+- basi di dati relazionali e SQL: DBMS, tabelle, chiavi, relazioni, CRUD, filtri, `NULL`, `JOIN`, ordinamento, aggregazioni, raggruppamenti e progettazione di tabelle e-commerce;
 - teoria, metodo di lavoro e preparazione alle verifiche.
 
 PHP è previsto come sviluppo futuro del corso. Al momento il repository non contiene materiali PHP.
 
 ## Ultimi aggiornamenti
 
+- aggiunta la quinta lezione SQL sul progetto e-commerce, con tabelle clienti, ordini, righe d'ordine, chiavi esterne e flusso ordine collegato a PHP;
 - aggiunta la quarta lezione SQL su ordinamento, funzioni di aggregazione, `GROUP BY` e `HAVING`;
 - aggiunto il percorso `web/09-bootstrap-rewrite`, con tre riscritture Bootstrap di esercizi precedenti, quiz, soluzioni e Lesson Learned;
-- completato il modulo sulle basi di dati in quattro lezioni progressive, con quiz, laboratori SQL sul database `shop`, soluzioni commentate ed esempi eseguibili;
+- completato il modulo sulle basi di dati in cinque lezioni progressive, con quiz, laboratori SQL sul database `shop`, soluzioni commentate ed esempi eseguibili;
 - ampliato il laboratorio Bootstrap con esempi numerati su griglia, form, componenti e pagine responsive complete;
 - aggiunta la gestione ordini in C#, dalla versione con array paralleli al refactoring con modelli e servizi;
 - aggiunti esercizi responsive con Flexbox, Grid e media query e una scheda prodotto completa;
@@ -108,12 +109,13 @@ Per eseguire gli script SQL in [`theory/02-basi-di-dati/examples/`](./theory/02-
 - [`01-analisi-rischio`](./theory/01-analisi-rischio/) — materiale sulle lezioni apprese nell'analisi del rischio;
 - [`02-basi-di-dati`](./theory/02-basi-di-dati/) — percorso didattico completo sulle basi di dati relazionali e SQL.
 
-Il modulo sulle basi di dati è organizzato in quattro lezioni:
+Il modulo sulle basi di dati è organizzato in cinque lezioni:
 
 1. concetti generali: database, DBMS, tabelle, record, campi, query, tipi, indici e chiavi;
 2. relazioni e operazioni CRUD, con quiz e l'esempio SQL del database `MUSICA`;
 3. laboratorio sul database `shop`, dedicato a `SELECT`, `WHERE`, `NULL`, operatori logici e `JOIN`;
-4. ordinamento, `LIMIT`, `DISTINCT`, funzioni di aggregazione, `GROUP BY` e `HAVING`.
+4. ordinamento, `LIMIT`, `DISTINCT`, funzioni di aggregazione, `GROUP BY` e `HAVING`;
+5. progettazione di tabelle per un mini e-commerce: clienti, ordini, righe d'ordine, prezzi, chiavi esterne e flusso ordine.
 
 Ogni passaggio è sostenuto dai materiali realmente presenti: [Lesson Learned](./theory/02-basi-di-dati/), quiz, soluzioni dei quiz, [laboratorio SQL](./theory/02-basi-di-dati/LAB_SQL_SHOP_03.md), [soluzioni commentate](./theory/02-basi-di-dati/SOLUZIONI_SQL_SHOP_03.md) ed [esempi SQL](./theory/02-basi-di-dati/examples/).
 
