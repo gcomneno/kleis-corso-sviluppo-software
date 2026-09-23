@@ -16,6 +16,8 @@ Il percorso attualmente presente comprende:
 
 ## Ultimi aggiornamenti
 
+- formalizzata la simulazione di esame finale del 22 settembre 2026: trascrizione delle due parti, protocollo ripetibile, soluzione PHP/MySQL commentata, query SQL, runbook e checklist di verifica;
+- conclusa la fase teorica del corso e avviata la preparazione operativa all'esame finale;
 - aggiunta e verificata end-to-end la Lezione PHP 5 su carrello e sessioni, a partire dall'evidence docente del 10 settembre 2026;
 - completato il compito PHP 5 nel laboratorio: carrello in tabella, totale e form dati ordine non persistente;
 - verificati runtime reale, aggiunta al carrello, isolamento fra sessioni, tabella carrello, form ordine, sintassi PHP e assenza di errori server tramite road test dedicato;
@@ -36,7 +38,7 @@ Le aree principali del percorso sono:
 - [`web/`](./web/) — esercitazioni HTML, CSS, responsive design e Bootstrap;
 - [`php-lab/`](./php-lab/) — modulo PHP con cinque lezioni formalizzate; PHP 1–5 riprodotto e verificato localmente nei rispettivi gate runtime;
 - [`theory/`](./theory/) — materiali teorici, analisi del rischio, basi di dati e preparazione del mini-ecommerce;
-- [`test-prep/`](./test-prep/) — test di ripasso con soluzioni separate;
+- [`test-prep/`](./test-prep/) — test di ripasso, simulazioni d'esame e soluzioni separate;
 - file di soluzione e progetto .NET — [`Kleis.sln`](./Kleis.sln) alla radice e i file `.csproj` nelle singole esercitazioni C#.
 
 Ogni cartella conserva, quando disponibili, sorgenti, tracce, asset, esempi, quiz, soluzioni e note didattiche. Le esercitazioni rimangono autonome: è quindi possibile affrontarle in sequenza oppure aprirne una singola per un ripasso mirato.
@@ -137,7 +139,8 @@ Per eseguire gli script SQL in [`theory/02-basi-di-dati/examples/`](./theory/02-
 ## Preparazione alle verifiche
 
 - [`01-html-css`](./test-prep/01-html-css/) — pre-test su HTML, CSS, layout e form, con soluzioni separate;
-- [`02-csharp`](./test-prep/02-csharp/) — pre-test su sintassi, input/output, condizioni, cicli, array, metodi, validazione e progettazione top-down, con soluzioni separate.
+- [`02-csharp`](./test-prep/02-csharp/) — pre-test su sintassi, input/output, condizioni, cicli, array, metodi, validazione e progettazione top-down, con soluzioni separate;
+- [`03-final-exam-simulation`](./test-prep/03-final-exam-simulation/) — simulazione finale del 22 settembre 2026: Parte A applicazione web, Parte B SQL, traccia trascritta, soluzione di riferimento, runbook e checklist.
 
 ## Metodo di lavoro
 
