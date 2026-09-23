@@ -1,0 +1,115 @@
+/*
+ * CSS intenzionalmente proprietario.
+ *
+ * Bootstrap non è necessario per questa prova:
+ * la traccia chiede esplicitamente di personalizzare la pagina con CSS.
+ */
+
+:root {
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    color: #1f2937;
+    background: #f8fafc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.page {
+    width: min(960px, calc(100% - 2rem));
+    margin: 2rem auto;
+}
+
+header,
+section {
+    margin-bottom: 2rem;
+}
+
+.eyebrow {
+    margin-bottom: .25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .8rem;
+}
+
+h1,
+h2 {
+    line-height: 1.2;
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    padding: .8rem;
+    border: 1px solid #d1d5db;
+    text-align: left;
+}
+
+th {
+    background: #e5e7eb;
+}
+
+.book-form {
+    display: grid;
+    gap: 1rem;
+    max-width: 34rem;
+}
+
+label {
+    display: grid;
+    gap: .35rem;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: .7rem;
+    border: 1px solid #9ca3af;
+    border-radius: .35rem;
+    font: inherit;
+}
+
+button {
+    width: fit-content;
+    padding: .65rem 1rem;
+    border: 0;
+    border-radius: .35rem;
+    background: #1f2937;
+    color: white;
+    font: inherit;
+    cursor: pointer;
+}
+
+button.danger {
+    background: #7f1d1d;
+}
+
+.notice {
+    padding: .8rem 1rem;
+    border: 1px solid currentColor;
+    border-radius: .35rem;
+    background: white;
+}
+
+.success {
+    color: #166534;
+}
+
+.error {
+    color: #991b1b;
+}
