@@ -6,7 +6,7 @@
 
 Realizzare una semplice applicazione web per la gestione di una lista di libri da leggere. L'applicazione dovrà permettere all'utente di:
 
-- Aggiungere un nuovo libro tramite un modulo con almeno i campi: **Nome, Autore** e un identificativo/codice libro visibile nella traccia fotografata come riferimento a **ISBN**.
+- Aggiungere un nuovo libro tramite un modulo con almeno i campi leggibili nella fotografia come **Nome, Autore**.
 - Visualizzare la lista dei libri nella pagina principale dell'applicazione.
 - Eliminare un libro dalla lista.
 - Non consentire l'inserimento di un libro con lo stesso **titolo** di uno già presente.
@@ -24,7 +24,8 @@ Nella fotografia è presente uno schizzo manoscritto con:
 
 - una tabella/lista superiore;
 - un'area inferiore dedicata al form di inserimento;
-- intestazioni manoscritte riconducibili a titolo, autore e altri metadati;
+- un campo manoscritto **Codice (ISBN)**;
+- campi/intestazioni manoscritte riconducibili a **Titolo**, **Autore**, **Editore** e altri metadati;
 - pulsante per creare un nuovo elemento;
 - pulsanti/azioni di salvataggio e annullamento nel form.
 
@@ -32,10 +33,9 @@ Le annotazioni manoscritte **non vengono trattate come requisiti stampati della 
 
 ## Nota di trascrizione
 
-La fotografia è leggermente sfocata nella riga che elenca i campi minimi del modulo. Per evitare di trasformare un dettaglio poco leggibile in un requisito inventato, la soluzione di riferimento usa un modello libro più ricco ma mantiene come vincolo funzionale certo:
+La fotografia è leggermente sfocata nella riga che elenca i campi minimi del modulo. La parte chiaramente leggibile è **Nome, Autore**; il riferimento a **Codice (ISBN)** appartiene invece allo schizzo manoscritto. Per evitare di trasformare lo schizzo in requisito stampato, la soluzione di riferimento tratta ISBN come una scelta progettuale aggiuntiva e mantiene come vincoli funzionali certi:
 
-- identificazione del libro;
-- titolo;
+- nome/titolo del libro;
 - autore;
 - unicità del titolo;
 - inserimento;
