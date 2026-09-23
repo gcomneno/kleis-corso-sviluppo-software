@@ -17,6 +17,8 @@ Libro
 └── created_at
 ```
 
+**ISBN non è assunto come requisito stampato certo.** Nella fotografia compare chiaramente nello schizzo manoscritto come `Codice (ISBN)`, quindi viene adottato come scelta progettuale coerente con l'interfaccia disegnata. Se in sede d'esame la traccia stampata non lo richiedesse, si potrebbe ometterlo senza cambiare il cuore della soluzione.
+
 Sono sufficienti tre casi d'uso:
 
 ```text
